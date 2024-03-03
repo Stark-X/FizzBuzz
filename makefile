@@ -5,6 +5,7 @@ sync-dep: ## Install dependencies
 	uv pip sync requirements.txt
 
 test: ## Run tests
-	.venv/bin/pytest --cov -v
+	@echo ">>> TIPS: should use pytest in the uv venv to run tests.\n"
+	pytest --cov -v
 
 .PHONY: help sync-dep test
