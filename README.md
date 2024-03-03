@@ -15,8 +15,21 @@ Practice for FizzBuzz (http://codingdojo.org/kata/FizzBuzz/)
 
 exit the virtual environment: `deactivate`
 
-## Usage
+## Story
 
-### Run the tests
+Write a program that prints the numbers from 1 to 100. But there are three exceptions:
 
-`make test`
+1. For multiples of three, print "Fizz" instead of the number.
+2. For the multiples of five, print "Buzz" instead of the number.
+3. For numbers which are multiples of both three and five, print "FizzBuzz" instead of the number.
+
+### Example
+
+```shell
+$ python fizzbuzz.py
+1
+2
+Fizz
+4
+Buzz
+```
