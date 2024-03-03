@@ -1,5 +1,7 @@
 # FizzBuzz practice
 
+[![Python Unittest](https://github.com/Stark-X/FizzBuzz/actions/workflows/unit-test.yaml/badge.svg?event=push)](https://github.com/Stark-X/FizzBuzz/actions/workflows/unit-test.yaml)
+
 Practice for FizzBuzz (http://codingdojo.org/kata/FizzBuzz/)
 
 ## Environment setup
