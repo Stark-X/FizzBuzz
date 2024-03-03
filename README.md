@@ -9,6 +9,12 @@ Practice for FizzBuzz (http://codingdojo.org/kata/FizzBuzz/)
 3. set pypi mirror: `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
 4. install [uv](https://github.com/astral-sh/uv): `pipx install uv`
 5. activate the virtual environment: `source .venv/bin/activate`
-6. sync the dependencies: `uv pip sync requirements.txt`
+6. sync the dependencies: `make sync-dep`
 
 exit the virtual environment: `deactivate`
+
+## Usage
+
+### Run the tests
+
+`make test`
