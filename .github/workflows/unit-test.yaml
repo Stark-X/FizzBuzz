@@ -1,6 +1,11 @@
 name: Python Unittest
 
-on: [push]
+on:
+  push:
+    paths:
+      - '*.py'
+      - '**/*.py'
+      - 'makefile'
 
 jobs:
   build:
